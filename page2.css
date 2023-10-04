@@ -1,0 +1,41 @@
+.mybackground{
+    background-color: #005f73; 
+ }
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+.nav-link:hover {
+     color: blue !important;
+ }
+.footer-bg{
+    background-color: #005f73;
+}
+.scale:hover{
+    transform: scale(1.1);
+    color: aliceblue !important;
+ }
+.go-up {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+ }
+.image{
+    background-image: url(./images/photo-1446038202205-1c96430dbdab.avif);
+    background-position:  center;
+ }
+.size{
+    width: 5rem;
+    height: 5rem;
+ }
+.bg-primary{
+   width: 7rem;
+   height: 7rem;
+   background-color: blue;
+ }
+.hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+.hover:hover{
+color: rgb(49, 23, 246);
+ }

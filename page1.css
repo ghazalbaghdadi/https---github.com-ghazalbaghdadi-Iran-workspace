@@ -1,0 +1,109 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+.nav-link:hover {
+     color: blue !important;
+ }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(3, 37, 255);
+    border: 15px solid rgb(0, 34, 255);
+    border-radius: 50px;
+}
+.two:hover{
+    background-color: rgb(3, 238, 255);
+    border: 15px solid rgb(3, 226, 255);
+}
+#blue-c{
+color: rgb(0, 85, 255);
+}
+#tiny{
+    width:4rem;
+}
+.size{
+    width: 4.5rem;
+    height: 4.5rem;
+    
+}
+.border{
+    width: 105px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-caption{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    text-align: start;
+    align-items: center;
+
+}
+.appointment {
+    background: linear-gradient(rgba(7, 70, 231, 0.9), rgba(16, 245, 39, 0.625)), url(./images/photo-1456926631375-92c8ce872def.avif) center center no-repeat;
+    background-size: cover;
+}
+.footer-bg{
+    background-color: #005f73;
+}
+.scale:hover{
+    transform: scale(1.1);
+    color: aliceblue !important;
+ }
+.go-up {
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+ }
+.width{
+    max-height: 160px;
+ }
+.placeoen{
+    position: absolute;
+    top: 30rem;
+    right: 0;
+}
+.card{
+    transition: all 1s ease;
+}
+.boxes{
+    transition: all 1s ease;
+    display: block;
+    z-index: 4;
+}
+.hidden{
+    transition: all 1s ease;
+    z-index: 10;
+    display: none;
+}
+.card:hover .boxes{
+    transition: all 1s ease;
+    display: none;
+}
+.card:hover .hidden{
+    transition:all 2s ease-in-out;
+    display: block;
+    background-color: rgb(253, 253, 253);
+    
+    transform: translate(0 ,-3rem);
+}
+.card-img-top{
+    z-index: 2;
+}
+.icons{
+    transition: all 0.5s ease;
+}
+.mybackground{
+      background-color: #005f73; 
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav-link:hover {
+      color: blue !important;
+}
